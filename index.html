@@ -3,233 +3,335 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akash Kumar | Software Engineer Portfolio</title>
+    <title>Akash Kumar Portfolio</title>
     <meta name="description" content="Akash Kumar, B.Tech CSE (AI/ML) student skilled in Java, Python, DSA, Spring Boot, MySQL and web development.">
-    <meta property="og:title" content="Akash Kumar | Software Engineer Portfolio">
+    <meta property="og:title" content="Akash Kumar Portfolio">
     <meta property="og:description" content="Java, DSA, Spring Boot, MySQL and AI/ML. Explore my projects.">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#0b1020">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css?v=2">
+    <script src="script.js?v=2" defer></script>
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
+    <a class="skip" href="#main">Skip to content</a>
 
-<header class="navbar" id="navbar">
-    <div class="nav-container">
-        <a href="#home" class="logo" aria-label="Home">AK<span>.</span></a>
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" aria-label="Home">AK<span>.</span></a>
 
-        <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
-            <a href="#home" class="nav-link">Home</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#skills" class="nav-link">Skills</a>
-            <a href="#education" class="nav-link">Education</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#coding" class="nav-link">Coding</a>
-            <a href="#contact" class="nav-link">Contact</a>
-        </nav>
+            <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#coding" class="nav-link">Coding</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
 
-        <div class="nav-actions">
-            <button type="button" class="icon-btn" id="themeBtn" aria-label="Switch theme"></button>
-            <a href="https://github.com/akashgupta80" target="_blank" rel="noopener noreferrer" class="github-nav">
-                <i class="fa-brands fa-github"></i> GitHub
-            </a>
-            <button type="button" class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
-                <i class="fa-solid fa-bars"></i>
+            <div class="nav-actions">
+                <button type="button" class="icon-btn" id="themeBtn" aria-label="Switch theme"></button>
+                <a href="https://github.com/akashgupta80" target="_blank" rel="noopener noreferrer" class="github-nav">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <button type="button" class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="available">
+                        <span class="status-dot"></span> Open to internships &amp; opportunities
+                    </div>
+                    <p class="hero-small">HELLO, I’M</p>
+                    <h1>Akash <span>Kumar</span></h1>
+                    <h2>Building practical software with <span class="typing" id="typingText">Java</span><span class="caret" aria-hidden="true"></span></h2>
+                    <p class="hero-description">
+                        B.Tech CSE (AI/ML) student focused on Java, Data Structures &amp; Algorithms,
+                        Spring Boot, MySQL and Artificial Intelligence. I turn ideas into working applications.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn secondary-btn">Let’s Connect</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/akashgupta80" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/akashkumar80/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/AkashGuptaxa/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
+                            <span>LC</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-art" aria-hidden="true">
+                    <div class="monogram">AK</div>
+                    <div class="floating-card card-one">
+                        <i class="fa-brands fa-java"></i>
+                        <div>
+                            <strong>Java</strong>
+                            <small>Development</small>
+                        </div>
+                    </div>
+                    <div class="floating-card card-two">
+                        <i class="fa-solid fa-code"></i>
+                        <div>
+                            <strong>DSA</strong>
+                            <small>Problem Solving</small>
+                        </div>
+                    </div>
+                    <div class="floating-card card-three">
+                        <i class="fa-solid fa-brain"></i>
+                        <div>
+                            <strong>AI/ML</strong>
+                            <small>Specialization</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-number">01</span>
+                    <div>
+                        <p class="section-label">ABOUT ME</p>
+                        <h2>Turning curiosity into <span>real-world projects.</span></h2>
+                    </div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <p class="large-text">I’m a Computer Science and Engineering student specializing in Artificial Intelligence and Machine Learning, with a strong interest in software development.</p>
+                        <p>My journey started with a 3-year Diploma in Computer Science &amp; Engineering and continued into my B.Tech. Along the way I became curious about how software systems are designed, built and connected together.</p>
+                        <p>Right now I’m strengthening my foundation in <strong>Java, Python, Data Structures &amp; Algorithms, Spring Boot, MySQL and AI/ML</strong>. I learn best by building practical applications and solving problems consistently.</p>
+                        <p>I’ve built a <strong>University Management System</strong> and the <strong>Exam Seat Finder</strong> web app, covering backend development, databases, APIs and dashboards.</p>
+                    </div>
+
+                    <div class="about-stats reveal">
+                        <div class="stat-row">
+                            <div class="stat-box">
+                                <strong data-count="2">0</strong>
+                                <span>Projects</span>
+                            </div>
+                            <div class="stat-box">
+                                <strong data-count="4" data-suffix="+">0</strong>
+                                <span>Years of CS study</span>
+                            </div>
+                            <div class="stat-box">
+                                <strong data-count="3">0</strong>
+                                <span>Online profiles</span>
+                            </div>
+                        </div>
+                        <div class="career-card">
+                            <span>CAREER GOAL</span>
+                            <h3>Grow into a software engineer who builds reliable technology that solves real problems.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="skills">
+            <div class="container">
+                <div class="section-heading center reveal">
+                    <span class="section-number">02</span>
+                    <div>
+                        <p class="section-label">TECHNICAL SKILLS</p>
+                        <h2>Technologies I work <span>with.</span></h2>
+                    </div>
+                </div>
+                <div class="skills-grid" id="skillsGrid"></div>
+            </div>
+        </section>
+
+        <section class="section" id="education">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-number">03</span>
+                    <div>
+                        <p class="section-label">EDUCATION</p>
+                        <h2>My academic <span>journey.</span></h2>
+                    </div>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2025 — Present</div>
+                        <div class="timeline-content">
+                            <span class="tag">BACHELOR’S DEGREE</span>
+                            <h3>B.Tech, Computer Science &amp; Engineering</h3>
+                            <h4>Specialization in Artificial Intelligence &amp; Machine Learning</h4>
+                            <p>Focused on software development, AI/ML and problem solving.</p>
+                            <span class="place"><i class="fa-solid fa-building-columns"></i> Galgotias University</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 — 2025</div>
+                        <div class="timeline-content">
+                            <span class="tag">DIPLOMA</span>
+                            <h3>Diploma in Computer Science &amp; Engineering</h3>
+                            <p>Built my foundation in computer science, programming and software development.</p>
+                            <span class="place"><i class="fa-solid fa-building-columns"></i> Baba Banda Singh Bahadur Polytechnic College</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="section-number">04</span>
+                    <div>
+                        <p class="section-label">SELECTED PROJECTS</p>
+                        <h2>Things I’ve <span>built.</span></h2>
+                    </div>
+                </div>
+                <div id="projectsList"></div>
+            </div>
+        </section>
+
+        <section class="section" id="certificates">
+            <div class="container">
+                <div class="section-heading center reveal">
+                    <span class="section-number">05</span>
+                    <div>
+                        <p class="section-label">CERTIFICATIONS</p>
+                        <h2>Learning, <span>verified.</span></h2>
+                    </div>
+                </div>
+                <div class="cert-grid" id="certGrid"></div>
+                <div class="cert-more" id="certMore"></div>
+            </div>
+        </section>
+
+        <section class="section alt" id="coding">
+            <div class="container">
+                <div class="section-heading center reveal">
+                    <span class="section-number">06</span>
+                    <div>
+                        <p class="section-label">PROBLEM SOLVING</p>
+                        <h2>Always learning. <span>Always improving.</span></h2>
+                    </div>
+                </div>
+                <div class="coding-grid" id="codingGrid"></div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="contact-wrapper reveal">
+                    <div class="contact-content">
+                        <p class="section-label">GET IN TOUCH</p>
+                        <h2>Let’s build something <span>meaningful.</span></h2>
+                        <p>I’m looking for internships and entry-level opportunities, and I’m always happy to connect with people working on interesting technology.</p>
+                        <a href="mailto:akashkumar.workcontact@gmail.com" class="email-link">
+                            <i class="fa-regular fa-envelope"></i> akashkumar.workcontact@gmail.com
+                        </a>
+                    </div>
+                    <div class="contact-links">
+                        <a href="mailto:akashkumar.workcontact@gmail.com">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div>
+                                <span>EMAIL</span>
+                                <strong>Let’s talk</strong>
+                            </div>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/akashkumar80/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <div>
+                                <span>LINKEDIN</span>
+                                <strong>Connect with me</strong>
+                            </div>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="https://github.com/akashgupta80" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i>
+                            <div>
+                                <span>GITHUB</span>
+                                <strong>View my code</strong>
+                            </div>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="logo">AK<span>.</span></div>
+            <p>© <span id="year">2026</span> Akash Kumar · All rights reserved</p>
+            <div class="footer-socials">
+                <a href="https://github.com/akashgupta80" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/akashkumar80/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-overlay" data-close></div>
+        <div class="modal-box">
+            <button type="button" class="modal-close" data-close aria-label="Close project details">
+                <i class="fa-solid fa-xmark"></i>
             </button>
-        </div>
-    </div>
-</header>
-
-<main id="main">
-
-<!-- HERO -->
-<section class="hero" id="home">
-    <div class="container hero-container">
-        <div class="hero-content">
-            <div class="available"><span class="status-dot"></span> Open to internships &amp; opportunities</div>
-            <p class="hero-small">HELLO, I’M</p>
-            <h1>Akash <span>Kumar</span></h1>
-            <h2>Building practical software with <span class="typing" id="typingText">Java</span><span class="caret" aria-hidden="true"></span></h2>
-            <p class="hero-description">
-                B.Tech CSE (AI/ML) student focused on Java, Data Structures &amp; Algorithms,
-                Spring Boot, MySQL and Artificial Intelligence. I turn ideas into working applications.
-            </p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn primary-btn">View My Work <i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#contact" class="btn secondary-btn">Let’s Connect</a>
+            <span class="tag" id="modalLabel">PROJECT</span>
+            <h2 id="modalTitle">Project</h2>
+            <p id="modalDescription"></p>
+            <div class="modal-section">
+                <h4>TECHNOLOGIES</h4>
+                <div class="chips" id="modalTech"></div>
             </div>
-            <div class="hero-socials">
-                <a href="https://github.com/akashgupta80" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/akashkumar80/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://leetcode.com/u/AkashGuptaxa/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode"><span>LC</span></a>
+            <div class="modal-section">
+                <h4>KEY FEATURES</h4>
+                <ul id="modalFeatures"></ul>
             </div>
-        </div>
-
-        <div class="hero-art" aria-hidden="true">
-            <div class="monogram">AK</div>
-            <div class="floating-card card-one"><i class="fa-brands fa-java"></i><div><strong>Java</strong><small>Development</small></div></div>
-            <div class="floating-card card-two"><i class="fa-solid fa-code"></i><div><strong>DSA</strong><small>Problem Solving</small></div></div>
-            <div class="floating-card card-three"><i class="fa-solid fa-brain"></i><div><strong>AI/ML</strong><small>Specialization</small></div></div>
-        </div>
-    </div>
-</section>
-
-<!-- ABOUT -->
-<section class="section" id="about">
-    <div class="container">
-        <div class="section-heading reveal">
-            <span class="section-number">01</span>
-            <div><p class="section-label">ABOUT ME</p>
-            <h2>Turning curiosity into <span>real-world projects.</span></h2></div>
-        </div>
-
-        <div class="about-grid">
-            <div class="about-text reveal">
-                <p class="large-text">I’m a Computer Science and Engineering student specializing in Artificial Intelligence and Machine Learning, with a strong interest in software development.</p>
-                <p>My journey started with a 3-year Diploma in Computer Science &amp; Engineering and continued into my B.Tech. Along the way I became curious about how software systems are designed, built and connected together.</p>
-                <p>Right now I’m strengthening my foundation in <strong>Java, Python, Data Structures &amp; Algorithms, Spring Boot, MySQL and AI/ML</strong>. I learn best by building practical applications and solving problems consistently.</p>
-                <p>I’ve built a <strong>University Management System</strong> and the <strong>Exam Seat Finder</strong> web app, and I’m currently working on a <strong>UPI Fraud Detection System</strong>, covering backend development, databases, APIs and dashboards.</p>
-            </div>
-
-            <div class="about-stats reveal">
-                <div class="stat-row">
-                    <div class="stat-box"><strong data-count="3">0</strong><span>Projects</span></div>
-                    <div class="stat-box"><strong data-count="4" data-suffix="+">0</strong><span>Years of CS study</span></div>
-                    <div class="stat-box"><strong data-count="3">0</strong><span>Online profiles</span></div>
-                </div>
-                <div class="career-card">
-                    <span>CAREER GOAL</span>
-                    <h3>Grow into a software engineer who builds reliable technology that solves real problems.</h3>
-                </div>
+            <div class="modal-section">
+                <h4>ARCHITECTURE</h4>
+                <div class="architecture" id="modalArchitecture"></div>
             </div>
         </div>
     </div>
-</section>
 
-<!-- SKILLS -->
-<section class="section alt" id="skills">
-    <div class="container">
-        <div class="section-heading center reveal">
-            <span class="section-number">02</span>
-            <div><p class="section-label">TECHNICAL SKILLS</p>
-            <h2>Technologies I work <span>with.</span></h2></div>
-        </div>
-        <div class="skills-grid" id="skillsGrid"></div>
-    </div>
-</section>
-
-<!-- EDUCATION -->
-<section class="section" id="education">
-    <div class="container">
-        <div class="section-heading reveal">
-            <span class="section-number">03</span>
-            <div><p class="section-label">EDUCATION</p>
-            <h2>My academic <span>journey.</span></h2></div>
-        </div>
-
-        <div class="timeline">
-            <div class="timeline-item reveal">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2025 — Present</div>
-                <div class="timeline-content">
-                    <span class="tag">BACHELOR’S DEGREE</span>
-                    <h3>B.Tech, Computer Science &amp; Engineering</h3>
-                    <h4>Specialization in Artificial Intelligence &amp; Machine Learning</h4>
-                    <p>Focused on software development, AI/ML and problem solving.</p>
-                    <span class="place"><i class="fa-solid fa-building-columns"></i> Galgotias University</span>
-                </div>
-            </div>
-            <div class="timeline-item reveal">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2022 — 2025</div>
-                <div class="timeline-content">
-                    <span class="tag">DIPLOMA</span>
-                    <h3>Diploma in Computer Science &amp; Engineering</h3>
-                    <p>Built my foundation in computer science, programming and software development.</p>
-                    <span class="place"><i class="fa-solid fa-building-columns"></i> Baba Banda Singh Bahadur Polytechnic College</span>
-                </div>
-            </div>
+    <div class="modal" id="certModal" role="dialog" aria-modal="true" aria-labelledby="certModalTitle">
+        <div class="modal-overlay" data-close-cert></div>
+        <div class="modal-box cert-modal-box">
+            <button type="button" class="modal-close" data-close-cert aria-label="Close certificate">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <span class="tag" id="certModalType">CERTIFICATE</span>
+            <h2 id="certModalTitle">Certificate</h2>
+            <p class="cert-modal-meta" id="certModalMeta"></p>
+            <img class="cert-modal-image" id="certModalImage" src="" alt="">
+            <div class="cert-modal-actions" id="certModalActions"></div>
         </div>
     </div>
-</section>
 
-<!-- PROJECTS -->
-<section class="section alt" id="projects">
-    <div class="container">
-        <div class="section-heading reveal">
-            <span class="section-number">04</span>
-            <div><p class="section-label">SELECTED PROJECTS</p>
-            <h2>Things I’ve <span>built.</span></h2></div>
-        </div>
-        <div id="projectsList"></div>
-    </div>
-</section>
-
-<!-- CODING -->
-<section class="section" id="coding">
-    <div class="container">
-        <div class="section-heading center reveal">
-            <span class="section-number">05</span>
-            <div><p class="section-label">PROBLEM SOLVING</p>
-            <h2>Always learning. <span>Always improving.</span></h2></div>
-        </div>
-        <div class="coding-grid" id="codingGrid"></div>
-    </div>
-</section>
-
-<!-- CONTACT -->
-<section class="section alt" id="contact">
-    <div class="container">
-        <div class="contact-wrapper reveal">
-            <div class="contact-content">
-                <p class="section-label">GET IN TOUCH</p>
-                <h2>Let’s build something <span>meaningful.</span></h2>
-                <p>I’m looking for internships and entry-level opportunities, and I’m always happy to connect with people working on interesting technology.</p>
-                <a href="mailto:akashkumar.workcontact@gmail.com" class="email-link"><i class="fa-regular fa-envelope"></i> akashkumar.workcontact@gmail.com</a>
-            </div>
-            <div class="contact-links">
-                <a href="mailto:akashkumar.workcontact@gmail.com"><i class="fa-regular fa-envelope"></i><div><span>EMAIL</span><strong>Let’s talk</strong></div><i class="fa-solid fa-arrow-right"></i></a>
-                <a href="https://www.linkedin.com/in/akashkumar80/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i><div><span>LINKEDIN</span><strong>Connect with me</strong></div><i class="fa-solid fa-arrow-right"></i></a>
-                <a href="https://github.com/akashgupta80" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i><div><span>GITHUB</span><strong>View my code</strong></div><i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </div>
-    </div>
-</section>
-
-</main>
-
-<footer>
-    <div class="container footer-container">
-        <div class="logo">AK<span>.</span></div>
-        <p>© <span id="year">2026</span> Akash Kumar · All rights reserved</p>
-        <div class="footer-socials">
-            <a href="https://github.com/akashgupta80" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/akashkumar80/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
-    </div>
-</footer>
-
-<!-- PROJECT MODAL -->
-<div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-    <div class="modal-overlay" data-close></div>
-    <div class="modal-box">
-        <button type="button" class="modal-close" data-close aria-label="Close project details"><i class="fa-solid fa-xmark"></i></button>
-        <span class="tag" id="modalLabel">PROJECT</span>
-        <h2 id="modalTitle">Project</h2>
-        <p id="modalDescription"></p>
-        <div class="modal-section"><h4>TECHNOLOGIES</h4><div class="chips" id="modalTech"></div></div>
-        <div class="modal-section"><h4>KEY FEATURES</h4><ul id="modalFeatures"></ul></div>
-        <div class="modal-section"><h4>ARCHITECTURE</h4><div class="architecture" id="modalArchitecture"></div></div>
-    </div>
-</div>
-
-<button type="button" class="back-top" id="backTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
-
+    <button type="button" class="back-top" id="backTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
 </body>
 </html>
